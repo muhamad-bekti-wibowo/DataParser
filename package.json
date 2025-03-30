@@ -1,0 +1,19 @@
+{
+  "name": "dataparser",
+  "version": "1.0.0",
+  "description": "Library Arduino untuk parsing string berdasarkan karakter pemisah.",
+  "main": "DataParser.h",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhamad-bekti-wibowo/DataParser"
+  },
+  "author": "Muhamad Bekti Wibowo",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "library",
+    "parser",
+    "string",
+    "data"
+  ]
+}
