@@ -1,5 +1,3 @@
-#define SerialDataParser
-
 #include "DataParser.h"
 
 void setup()
