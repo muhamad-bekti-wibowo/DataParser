@@ -82,9 +82,7 @@ public:
         if (dataIndex >= maxStrings)
         {
           stringCount = maxStrings;
-#ifdef SerialDataParser
           Serial.println("RETURN: Maximum array size reached");
-#endif
           return; // Exit function to prevent array overflow
         }
       }
@@ -107,14 +105,11 @@ public:
     // Make sure we don't exceed the maximum array size
     if (stringCount > maxStrings)
     {
-#ifdef SerialDataParser
       Serial.println("RETURN: Limiting to maximum array size");
-#endif
+
       stringCount = maxStrings;
     }
-#ifdef SerialDataParser
     Serial.println("Success Get data divided into " + (String)stringCount + " data strings");
-#endif
   }
   static int count(String input, char separator)
   {
